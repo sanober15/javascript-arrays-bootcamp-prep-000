@@ -32,7 +32,7 @@ function accessElementInArray(a,i){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(a){
-  a = a.shift();
+  a.shift();
   return a;
 }
 
