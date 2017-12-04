@@ -13,7 +13,7 @@ function addElementToBeginningOfArray(a, b){
 }
 
 function destructivelyAddElementToBeginningOfArray(a,b){
-  a = [...,b];
+  a = [b, ...a];
   return a;
 }
 
