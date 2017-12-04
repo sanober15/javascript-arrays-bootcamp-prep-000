@@ -6,7 +6,7 @@ var ingredient5 = 'tomato'
 var ingredient6 = 'garlic'
 
 var chocolateBars = ['snickers','hundred grands','kitkat', 'skittles']
-/*
+
 function addElementToBeginningOfArray(a, b){
   const a = a;
 
@@ -16,7 +16,8 @@ function addElementToBeginningOfArray(a, b){
 
 function destructivelyAddElementToBeginningOfArray(a,b){
 
-  a.unshift('b')
+
+  return a.unshift('b');
 
 }
-*/
+
