@@ -13,7 +13,7 @@ function addElementToBeginningOfArray(a, b){
 }
 
 function destructivelyAddElementToBeginningOfArray(a,b){
-  return [b,...a];
+  return a.unshift(b)
 }
 
 function accessElementInArray(a,i){
